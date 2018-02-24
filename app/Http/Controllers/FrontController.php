@@ -5,7 +5,7 @@ use App;
 use App\Member;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
-
+use Illuminate\Support\Facades\Auth;
 class FrontController extends Controller
 {
     public function getIndex()

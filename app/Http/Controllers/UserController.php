@@ -8,6 +8,15 @@ use Illuminate\Support\Facades\Redirect;
 
 class UserController extends Controller
 {
+    public function Login()
+    {
+        if (Auth::check()) {
+            return Redirect::away('/');
+
+        }
+        return view('login');
+    }
+
     public function postLogin()
     {
         if (Auth::attempt(['email' => Request::get('email'), 'password' => Request::get('password')])) {
@@ -15,7 +24,7 @@ class UserController extends Controller
 
         } else {
 
-            return Redirect::away('/')->with('error', 'Please check your password & email');
+            return Redirect::away('/login')->with('error', 'Please check your password & email');
         }
     }
 

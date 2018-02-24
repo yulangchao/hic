@@ -151,11 +151,19 @@
                         <select class="form-control" id="sel1" onChange="window.location.href='/?la='+ this.value">
                             <option value="en" selected>English</option>
                             <option value="zh">Chinese</option>
+                            <option value="kr">Korean</option>
+                            <option value="jp">Japanese</option>
                         </select>
                     </li>
+                    @if(!Auth::check())
                     <li  style="display:none;">
-                        <button type="button"  class="btn btn-signup btn-white-bordered" data-toggle="modal" data-target="#signin"> Sign in </button>
+                        <a type="button"  href="/login" class="btn btn-signup btn-white-bordered"> Sign in </a>
                     </li>
+                    @else
+                    <li  style="display:none;">
+                        <a type="button" href="/" class="btn btn-signup btn-white-bordered"> My Account </a>
+                    </li>
+                    @endif
                 </ul>
                 <ul class="nav navbar-nav social navbar-right">
                     <li>
@@ -268,14 +276,14 @@
                     </div>
                 </div>
                 <div class="col-md-6 wow slideInRight">
-                    <img src="img/office-space.jpg" alt="img" class="img-responsive">
+                    <img src="img/now.jpg" alt="img" class="img-responsive">
                 </div>
             </div>
         </div>
-        <div class="row about-story bg-light" style="padding-top:20px;padding-bottom: 20px;">
+        <div class="row about-story bg-light" style="padding:20px;">
             <div class="container">
                 <div class="col-md-6 wow slideInLeft">
-                    <img src="img/office-space.jpg" alt="img" class="img-responsive">
+                    <img src="img/purpose.jpg" alt="img" class="img-responsive">
                 </div>
                 <div class="col-md-6  wow slideInRight">
                     <div class="contdainer">
@@ -322,7 +330,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-md-push-1 wow slideInRight">
-                    <img src="img/dashboard.png" alt="img" class="img-responsive service-img">
+                    <img src="img/tech1.jpg" alt="img" class="img-responsive service-img">
                 </div>
             </div>
         </div>

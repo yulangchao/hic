@@ -719,7 +719,7 @@ body {
  /*======= 3. Home =======*/
  
  .home-fullscreen {
-     background-image: url('../img/header-bg.jpg');
+     background-image: url('../img/bg.jpg');
      background-attachment: fixed;
      -webkit-background-size: cover;
      background-size: cover;

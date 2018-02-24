@@ -12,7 +12,7 @@
 */
 
 Route::get('/', 'FrontController@getIndex');
-
+Route::get('/login', 'UserController@Login');
 Route::get('auth/register', 'UserController@getRegister');
 Route::post('auth/register', 'UserController@postRegister');
 Route::get('auth/login', 'UserController@getLogin');
