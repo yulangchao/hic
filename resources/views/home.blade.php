@@ -153,6 +153,7 @@
                             <option value="zh">Chinese</option>
                             <option value="kr">Korean</option>
                             <option value="jp">Japanese</option>
+                            <option value="ru">Russian</option>
                         </select>
                     </li>
                     @if(!Auth::check())
@@ -207,7 +208,7 @@
                             <br>
                             <div class="header-info">
                                 <p>
-                                @lang('hic.header.introduction1')
+                                {!! trans('hic.header.introduction1') !!}
                                 </p>
                                 <a href="https://www.youtube.com/watch?v=6NC_ODHu5jg" class="video-btn btn popup-video">
                                     <i class="fa fa-play"></i>Watch Video</a>
@@ -362,28 +363,50 @@
     <!-- End services -->
 
     <!-- pricing -->
-    <section class="timeline" id="roadmap">
+    <section class="section" id="roadmap">
         <div class="row">
             <div class="col-sm-12 text-center wow fadeInUp">
                 <h3 class="title">@lang('hic.roadmap.header')</h3>
-                <p class="text-muted sub-title">@lang('hic.roadmap.introduction')</p>
             </div>
         </div>
-        <div class="container">
-            @for ($i = 0; $i <= 7; $i++)
-                <div class="timeline-item">
-                    <div class="timeline-img"></div>
-
-                    <div class="timeline-content js--fadeInLeft">
-                        <h3>@lang('hic.roadmap.content.'.$i)</h3>
-                        <div class="date">@lang('hic.roadmap.date.'.$i)</div>
-                    </div>
+        <div class="">
+                <img style="width:100%" src="/img/roadmap.jpg">
+                <div class="map-point" style="left: 24%;
+    margin-top: -25%;">
+                <div class="map-point__tooltip"><p>@lang('hic.roadmap.date.0')</p><p>@lang('hic.roadmap.content.0')</p></div>
                 </div>
-            @endfor
 
+                <div class="map-point" style="left: 24%;
+    margin-top: -23%;">
+                    <div class="map-point__tooltip" style="top:-152px"><p>@lang('hic.roadmap.date.1')</p><p>@lang('hic.roadmap.content.1')</p><p>@lang('hic.roadmap.date.2')</p><p>@lang('hic.roadmap.content.2')</p></div>
+                    
+                </div>
 
-
-
+                <div class="map-point" style="left: 38%;
+    margin-top: -18%;">
+                    <div class="map-point__tooltip"><p>@lang('hic.roadmap.date.3')</p><p>@lang('hic.roadmap.content.3')</p></p></div>
+                    
+                </div>
+                <div class="map-point" style="left: 28%;
+    margin-top: -22.5%;">
+                    <div class="map-point__tooltip"><p>@lang('hic.roadmap.date.4')</p><p>@lang('hic.roadmap.content.4')</p></p></div>
+                    
+                </div>
+                <div class="map-point" style="left: 52%;
+    margin-top: -26%;">
+                    <div class="map-point__tooltip"><p>@lang('hic.roadmap.date.5')</p><p>@lang('hic.roadmap.content.5')</p></p></div>
+                    
+                </div>
+                <div class="map-point" style="left: 66%;
+    margin-top: -24.5%;">
+                    <div class="map-point__tooltip"><p>@lang('hic.roadmap.date.6')</p><p>@lang('hic.roadmap.content.6')</p></p></div>
+                    
+                </div>
+                <div class="map-point" style="left: 53%;
+    margin-top: -23%;">
+                    <div class="map-point__tooltip" style="    left: -124px;"><p>@lang('hic.roadmap.date.7')</p><p>@lang('hic.roadmap.content.7')</p></p></div>
+                    
+                </div>
         </div>
     </section>
     <!-- End Pricing -->
@@ -393,7 +416,6 @@
         <div class="row">
             <div class="col-sm-12 text-center wow fadeInUp">
                 <h3 class="title">@lang('hic.team.header')</h3>
-                <p class="text-muted sub-title">@lang('hic.team.introduction')</p>
             </div>
         </div>
         <!-- end row -->
@@ -448,7 +470,6 @@
         <div class="row">
             <div class="col-sm-12 text-center wow fadeInUp">
                 <h3 class="title">@lang('hic.partner.header')</h3>
-                <p class="text-muted sub-title">@lang('hic.partner.introduction')</p>
             </div>
         </div>
         <!-- end row -->
@@ -495,7 +516,6 @@
         <div class="row">
             <div class="col-sm-12 text-center wow fadeInUp">
                 <h3 class="title">@lang('hic.token.header')</h3>
-                <p class="text-muted sub-title">@lang('hic.token.introduction')</p>
             </div>
         </div>
         <div class="container">
@@ -510,14 +530,65 @@
     <footer class="section footer wow fadeInUp">
         <div class="container">
             <!-- Navbar -->
-            <div class="navbar navbar-custom" role="navigation">
-                <div class="navbar-header">
+            <div class="" role="navigation" style="height:200px">
+                <div class=" col-md-4">
                     <a class="logo" href="index.html">
-                        <img src="img/logo.png" alt="logo" class="navbar-brand img-responsive">
+                        <img src="img/logo.png" style="height: 150px;" alt="logo" class="navbar-brand img-responsive">
                     </a>
                 </div>
-                <div class="navbar" id="footer-menu">
+                <div class="col-md-8" id="footer-menu">
+                    <div class="col-md-6">
+                         <h4>社会联系</h4>
+                         <ul class="social">
+                            <li>
+                                <a href="#facebook">
+                                    <i class="fa fa-facebook">Facebook </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#twitter">
+                                    <i class="fa fa-twitter">Twitter </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#instagram">
+                                    <i class="fa fa-instagram">Instagram </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#linkedin">
+                                    <i class="fa fa-linkedin">Linkedin </i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                         <h4>快速访问</h4>
+                         <ul class="social">
+                            <li>
+                                <a href="#facebook">
+                                    <i class="fa fa-facebook">首页 </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#twitter">
+                                    <i class="fa fa-twitter">介绍 </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#instagram">
+                                    <i class="fa fa-instagram">发展路线 </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#linkedin">
+                                    <i class="fa fa-linkedin">团队 </i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+                
             </div>
             <div class="lower-footer">
                 <div class="row">
@@ -635,6 +706,15 @@ $(document).ready(function(){
     	console.log(lang);
     	$('#sel1').val(lang);
     }
+
+$(".map-point").hover(
+    function() {
+    $( this ).find(".map-point__tooltip").show();
+  }, function() {
+    $( this ).find(".map-point__tooltip").hide();
+  }
+)
+
 
 })
 

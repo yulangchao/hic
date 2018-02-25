@@ -10,16 +10,16 @@ return [
         'partner' => 'Partner',
         'token' => 'Token',
         'header' => 'Health Information Chain——HIC', 
-        'introduction0' => 'DECENTRALIZED MEDICAL HEALTH INFORMATION SERVICE PLATFORM',
-        'introduction1' => 'DECENTRALIZED BLOCK CHAIN SYNCHRONIZATION TECHNOLOGY, MEDICAL HEALTH INFORMATION SHARING PLATFORM, THE UNIQUENESS OF SAFTY AND TRANSPARENT',
+        'introduction0' => '',
+        'introduction1' => 'DECENTRALIZED BLOCK CHAIN SYNCHRONIZATION TECHNOLOGY, <br/> MEDICAL HEALTH INFORMATION SHARING PLATFORM,  <br/> THE UNIQUENESS OF SAFTY AND TRANSPARENT',
      ],
     'about' => [
         'header' => 'About HIC',  
-        'introduction' => 'DECENTRALIZED BLOCK CHAIN SYNCHRONIZATION TECHNOLOGY, MEDICAL HEALTH INFORMATION SHARING PLATFORM, THE UNIQUENESS OF SAFTY AND TRANSPARENT',
+        'introduction' => '',
         '1title' =>'MEDICAL DATA STATUS',
-        '1body' =>"HEALTH RECORDS ARE STORED IN MANY COUNTRIES AROUND THE WORLD NOT PORTABLE CENTRALIZED DATABASE, THE CENTRALIZED DATABASE CANNOT ENSURE THE SECURITY AND DATA INTEGRITY, WITHOUT THE NEED TO IDENTIFY AND CONTROL ACCESS REQUIREMENTS.SEVERAL COUNTRIES HAVE TRIED TO OVERCOME THE PROBLEMS EXISTING IN THE CURRENT HEALTH INFORMATION SYSTEM, BUT THERE IS STILL NO PERFECT SOLUTION.IT IS BOUND TO BE RESTRICTED TO SOLVE THE PROBLEM IN A CENTRALIZED MEDICAL ENVIRONMENT WITH DIFFERENT INTERESTS.IN ORDER TO SOLVE THESE PROBLEMS AND FURTHER DEVELOP THE MEDICAL FIELD, WE MUST EXPLORE AND DEVELOP A NEW MEDICAL AND HEALTH INFORMATION MANAGEMENT SYSTEM.",
+        '1body' =>"Health Records Are Stored In Many Countries Around The World Not Portable Centralized Database, The Centralized Database Cannot Ensure The Security And Data Integrity, Without The Need To Identify And Control Access Requirements.several Countries Have Tried To Overcome The Problems Existing In The Current Health Information System, But There Is Still No Perfect Solution.it Is Bound To Be Restricted To Solve The Problem In A Centralized Medical Environment With Different Interests.in Order To Solve These Problems And Further Develop The Medical Field, We Must Explore And Develop A New Medical And Health Information Management System.",
         '2title' =>'PURPOSE OF HIC',
-        '2body' =>'HIC TEAM IS TO "REDISTRIBUTE THE VALUE OF PERSONAL MEDICAL HEALTH INFORMATION, IMPROVE THE QUALITY OF MEDICAL ACCESS AND SERVICE, AND ACCELERATE THE DECENTRALIZATION OF PERSONAL MEDICAL AND HEALTH INFORMATION."THE HIC TEAM AIMS TO CENTRALIZE PERSONAL MEDICAL AND HEALTH INFORMATION ACCORDING TO THE PROFESSIONAL KNOWLEDGE IN THE MEDICAL FIELD. HTC WILL CHANGE THE HEALTH INFORMATION MANAGEMENT SYSTEM TO REALIZE THE MEDICAL INSTITUTION ORIENTED INTO PATIENT ORIENTED, HTC CURRENT HEALTH INFORMATION SYSTEM DOES NOT HAVE THE INTERCHANGEABILITY OF, SYMMETRY, TRANSPARENCY, AND SECURITY.HTC TO STORE, ON THE BASIS OF THE MEDICAL AND HEALTH INFORMATION PLATFORM FOR THE DEVELOPMENT OF A VARIETY OF HIGH QUALITY HEALTH CARE SERVICES, AT THE SAME TIME ALSO WILL PROVIDE ALL THE PARTICIPANTS ON THE PLATFORM WITH THE UNIQUE OPPORTUNITY TO GET A REWARD'
+        '2body' =>'Hic Team Is To "Redistribute The Value Of Personal Medical Health Information, Improve The Quality Of Medical Access And Service, And Accelerate The Decentralization Of Personal Medical And Health Information."The Hic Team Aims To Centralize Personal Medical And Health Information According To The Professional Knowledge In The Medical Field. Htc Will Change The Health Information Management System To Realize The Medical Institution Oriented Into Patient Oriented, Htc Current Health Information System Does Not Have The Interchangeability Of, Symmetry, Transparency, And Security.htc To Store, On The Basis Of The Medical And Health Information Platform For The Development Of A Variety Of High Quality Health Care Services, At The Same Time Also Will Provide All The Participants On The Platform With The Unique Opportunity To Get A Reward.'
     ],
     'feature' => [
         'header' => 'HIC Features',
@@ -40,7 +40,7 @@ return [
     ],
     'team' => [
         'header' => 'Our Team',  
-        'introduction' => 'THE FOUNDER AND CONSULTANT', 
+        'introduction' => '', 
         'intro' => [
             '0' => "BACHELOR'S DEGREE IN INFORMATION DATA ANALYSIS, UBC UNIVERSITY, CANADA;FORMER HEAD OF GLOBAL DATA AT ALLIANZ.CANADA PGHD PROJECT LEADER",
             '1' => "UNIVERSITY OF UBC COMPUTER BACHELOR'S DEGREE, UNIVERSITY OF SOUTHERN CALIFORNIA (USC) MASTER'S DEGREE IN COMPUTER SCIENCE.",
@@ -56,11 +56,11 @@ return [
     ],
     'partner' => [
         'header' => 'Our Partners',  
-        'introduction' => 'Introduction',
+        'introduction' => '',
     ],    
     'roadmap' => [
         'header' => 'Road Map',  
-        'introduction' => 'Introduction', 
+        'introduction' => '', 
         'date' => [
             '0' => '2017/06',
             '1' => '2017/08',

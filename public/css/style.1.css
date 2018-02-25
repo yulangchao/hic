@@ -26,7 +26,6 @@ section {
 
 .timeline-item {
   width: 100%;
-  margin-bottom: 70px;
 }
 
 .timeline-item:nth-child(even) .timeline-content {

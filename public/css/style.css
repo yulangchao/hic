@@ -1,5 +1,98 @@
 
- 
+ #footer-menu li{
+    list-style-type: none;
+ }
+#roadmap{
+    padding:0px;
+}
+
+@media (max-width: 768px) {
+    .map-point {
+        width: 10px !important;
+        height: 10px !important;
+    }
+    #roadmap .row{
+        margin-top: 10px !important;
+    }
+}
+
+.map-point {
+    cursor: pointer;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    will-change: transform,box-shadow;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    -webkit-box-shadow: 0 0 0 rgba(51,204,255,.4);
+    box-shadow: 0 0 0 rgba(51,204,255,.4);
+    -webkit-animation: pulse 3s infinite;
+    animation: pulse 3s infinite;
+}
+.map-point__tooltip {
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    top: -80px;
+    left: -45px;
+    background-color: #fff;
+    padding: 5px 18px;
+    font-family: Montserrat,HelveticaNeueLight,HelveticaNeue-Light,"Helvetica Neue Light",HelveticaNeue,"Helvetica Neue",Helvetica,Tahoma,Geneva,Arial,sans-serif;
+    font-weight: 300;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #485f64;
+    margin-bottom: 1em;
+    width: auto;
+    height: auto;
+    white-space: nowrap;
+}
+
+/* .map-point__tooltip:after {
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    visibility: visible;
+}
+
+
+.map-point__tooltip:after {
+    border-width: 10px;
+    border-top-color: #fff;
+    bottom: -20px;
+    right: 50%;
+    margin-right: -10px;
+} */
+
+
+
+
+#roadmap .row{
+    position: absolute;
+    /* margin: auto!important; */
+    margin: auto;
+    left: 0;
+    right: 0;
+    /* top: 30px; */
+    margin-top: 30px;
+    color: white;
+}
+ #footer-menu h4{
+    padding-left:40px;
+    padding-bottom:20px;
+    color:white;
+ }
+
  body {
      font-family: 'Lato', sans-serif;
      color: #496174;
