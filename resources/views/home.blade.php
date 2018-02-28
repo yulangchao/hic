@@ -140,9 +140,6 @@
                     <li>
                         <a href="#clients" class="nav-link">@lang('hic.header.partner')</a>
                     </li>
-                    <li>
-                        <a href="#token" class="nav-link">@lang('hic.header.token')</a>
-                    </li>
                 </ul>
                 <!-- Navbar right -->
 
@@ -258,7 +255,7 @@
                     <div class="text-center wow fadeInUp">
                         <div class="title-box-icon">
                             <h3 class="title">@lang('hic.about.header')</h3>
-                            <p class="text-muted sub-title">@lang('hic.about.introduction')</p>
+                            <p class="text-muted sub-title"></p>
                         </div>
                     </div>
                 </div>
@@ -331,7 +328,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-md-push-1 wow slideInRight">
-                    <img src="img/tech1.jpg" alt="img" class="img-responsive service-img">
+                    <img src="img/bg.jpg" alt="img" class="img-responsive service-img">
                 </div>
             </div>
         </div>
@@ -345,7 +342,8 @@
                     <div class="text-center wow fadeInUp">
                         <div class="title-box-icon">
                             <h3 class="title">@lang('hic.wp.header')</h3>
-                            <p class="text-muted sub-title">@lang('hic.wp.introduction')</p>
+                            <p class="text-muted sub-title"></p>
+                            <!-- <p class="text-muted sub-title">@lang('hic.wp.introduction')</p> -->
                         </div>
                     </div>
                 </div>
@@ -354,7 +352,7 @@
             <div class="row">
                 <div class="col-md-12 text-center wow flipInY">
                     <div class="icon-box">
-                        <a class="btn btn-custom" href="@lang('hic.wp.path')" download>@lang('hic.wp.btn')</a>
+                        <a class="btn btn-custom" href="@lang('hic.wp.path')" download>White Paper</a>
                     </div>
                 </div>
             </div>
@@ -366,7 +364,7 @@
     <section class="section" id="roadmap">
         <div class="row">
             <div class="col-sm-12 text-center wow fadeInUp">
-                <h3 class="title">@lang('hic.roadmap.header')</h3>
+                <h3 class="title">ROAD MAP</h3>
             </div>
         </div>
         <div class="">
@@ -430,7 +428,7 @@
                                 <h3 class="team-name">{{$member->name}} </h3>
                             </figure>
                             <span>@lang('hic.team.title.'.$key)</span>
-                            <p>@lang('hic.team.intro.'.$key)
+                            <p style="    word-break: break-word;">@lang('hic.team.intro.'.$key)
                             </p>
                             <hr>
                             <!-- <div class="team-social">
@@ -512,16 +510,6 @@
     </section>
     <!-- end clients -->
     <!-- subscribe -->
-    <section id="token" class="subscribe custom-bg  bg-light">
-        <div class="row">
-            <div class="col-sm-12 text-center wow fadeInUp">
-                <h3 class="title">@lang('hic.token.header')</h3>
-            </div>
-        </div>
-        <div class="container">
-                <img style="width:100%" src="/img/piechart.png">
-        </div>
-    </section>
     <!-- end subscribe -->
     <!-- / Contact section -->
 
