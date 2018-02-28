@@ -518,15 +518,15 @@
     <footer class="section footer wow fadeInUp">
         <div class="container">
             <!-- Navbar -->
-            <div class="" role="navigation" style="height:200px">
-                <div class=" col-md-4">
+            <div class="" role="navigation" style="height:220px">
+                <div class=" col-md-4 col-xs-12">
                     <a class="logo" href="index.html">
                         <img src="img/logo.png" style="height: 150px;" alt="logo" class="navbar-brand img-responsive">
                     </a>
                 </div>
-                <div class="col-md-8" id="footer-menu">
-                    <div class="col-md-6">
-                         <h4>社会联系</h4>
+                <div class="col-md-8 col-xs-12" id="footer-menu">
+                    <div class="col-md-6 col-xs-6">
+                         <h4>Media</h4>
                          <ul class="social">
                             <li>
                                 <a href="#facebook">
@@ -550,27 +550,27 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6">
-                         <h4>快速访问</h4>
+                    <div class="col-md-6 col-xs-6">
+                         <h4>Links</h4>
                          <ul class="social">
                             <li>
-                                <a href="#facebook">
-                                    <i class="fa fa-facebook">首页 </i>
+                                <a href="#home">
+                                    <i class="fa">@lang('hic.header.home') </i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#twitter">
-                                    <i class="fa fa-twitter">介绍 </i>
+                                <a href="#about">
+                                    <i class="fa">@lang('hic.header.about') </i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#instagram">
-                                    <i class="fa fa-instagram">发展路线 </i>
+                                <a href="#roadmap">
+                                    <i class="fa">@lang('hic.header.rm') </i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#linkedin">
-                                    <i class="fa fa-linkedin">团队 </i>
+                                <a href="#team">
+                                    <i class="fa">@lang('hic.header.team') </i>
                                 </a>
                             </li>
                         </ul>

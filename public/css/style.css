@@ -14,6 +14,10 @@
     #roadmap .row{
         margin-top: 10px !important;
     }
+
+    .footer .logo img{
+        height:50px !important;
+    }
 }
 
 .map-point {
